@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="boot/css/bootstrap.min.css" rel="stylesheet">
+    <script src="boot/js/bootstrap.bundle.min.js" defer></script>
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+    <script src = "script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block bg-black sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a id="popularButton" class="nav-link" href="#">Popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="topRatedButton" class="nav-link" href="#">Top Rated</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="upcomingButton" class="nav-link" href="#">Upcoming</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <!-- Main Content -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+                    <a class="navbar-brand" href="file:///D:/1200/1206/mid_term/index.html" style="color: white;">LoremPlix</a>
+                    <div class="search-container">
+                        <input class="form-control mr-sm-2 search-input" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" style = "color: white;"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Movies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TV Shows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My List</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    
+                <!-- Content section -->
+                <div class="container">
+                    <div class="row mt-4" id="imageGrid">
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    width: 120px;
+    transition: width 0.3s ease-in-out;
+}
+
+.search-input:focus,
+.search-input:hover,
+.search-container.expanded .search-input {
+    width: 200px;
+}
+/* Custom CSS for image grid */
+.img-thumbnail {
+    width: 120px; /* Adjust the width of the thumbnails as needed */
+    height: auto;
+    margin: 5px; /* Adjust margin between images */
+}
+
+@media (min-width: 576px) {
+    .img-thumbnail {
+        width: 150px;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-thumbnail {
+        width: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-thumbnail {
+        width: 250px;
+    }
+}
+
+.sidebar-sticky{
+    background-color: black;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
